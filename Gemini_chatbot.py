@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from keys import key
+
 
 genai.configure(api_key="your own api-key collected form Gemini")
 model = genai.GenerativeModel("gemini-1.5-flash")
